@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgb(151, 185, 114);
+
+}
+.cont{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    flex-direction: column;
 }
 .inputbox{
     background-color: rgb(5, 31, 94);
@@ -42,4 +46,9 @@ body{
     border-radius: 50%;
     padding: 7px 9px;
     color: white;
+}
+#message{
+    color: white;
+    display: none;
+
 }
